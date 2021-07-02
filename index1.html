@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/media.css" type="text/css">
+  <link rel="stylesheet" href="css/font.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="css/animate.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <nav class="navigation">
+      <a href="#" class="navbar-logo">Logo</a>
+      <div class="navbar-right">
+        <div id="mySidenav" class="sidenav">
+          <ul>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </ul>
+        </div>
+        <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()"><i class="fa fa-bars nav-icon" ></i></span>
+
+
+      </div>
+    </nav>
+
+    <div class="video">
+      <video loop muted id="video-bg">
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      <div class="video-div">
+        <h1 class="white f-100 fade-left  no-display animated fadeInUp line-h">Passion That's inhabitable</h1>
+        <button class="video-icon" id="vidbutton"><i class="fa fa-play-circle-o"><small
+              class="float-right top-center small-text">PLAY VIDEO</small></i></button>
+      </div>
+
+    </div>
+  </div>  
+    <section class="hr-line">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="philosophy fade-left  no-display animated fadeInUp">THE PHILOSOPHY</h1>
+            <h2 class="text-center dark-gray f-500 fade-left  no-display animated fadeInUp">Lorem is an advocate of the traditional values India has embraced.<br>
+              In other words we swear by THE 3 T's - Teamwork, Transparency,<br>
+              Tenacity Teamwork - People are Migsun's<br>
+              biggest assets.
+            </h2>
+            <button class="know-more-btn fade-left  no-display animated fadeInUp">Know More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section>
+      <div class="container">
+        <div class="row fade-left  no-display animated fadeInUp">
+          <div class="col-md-12">
+             <h1 class="text-center f-500  fade-down no-display animated fadeInDown dark-gray" >Portfolio Highlights</h1>
+            </div>
+        </div>
+        <div class="card fade-left  no-display animated fadeInUp" style="border: none;">
+            <!-- START TABS DIV -->
+            <div class="tabbable-responsive">
+              <div class="tabbable">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">COMMERCIAL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">RESIDENTIAL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">EDUCATION</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="fourth-tab" data-toggle="tab" href="#fourth" role="tab" aria-controls="fourth" aria-selected="false">HOSPITALITY</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+               <div class="row">
+                <div class="col-md-8 col-sm-12 ">
+                  <img src="image/1.jpg" alt="test" class="img-fluid">
+                  <div class="heroContent2">
+                    <h5 class="img-heading">4nd january 2018</h5>
+                    <p class="img-content">
+                    This is the first line in the jumbotron.<br>
+                    The second line appears underneath the first In publishing and graphic design, Lorem ipsum is a placeholder text commonly</line>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 col-sm-12 mt-200">
+                  <img src="image/3.jpg" alt="test" class="img-fluid">
+                  <div class="heroContent1">
+                    <h5 class="img-heading">4nd january 2018</h5>
+                    <p class="img-content">
+                    This is the first line in the jumbotron.<br>
+                    The second line appears underneath the first line.
+                    </p>
+                  </div>
+                </div>  
+                </div>
+                <div class="row">
+                  <div class="col-md-5 col-sm-12 mt-40">
+                    <img src="image/2.jpg" alt="test" class="img-fluid">
+                    <div class="heroContent3">
+                      <h5 class="img-heading">4nd january 2018</h5>
+                      <p class="img-content">
+                      This is the first line in the jumbotron.<br>
+                      The second line appears underneath the first line.
+                      </p>
+                    </div>
+                  </div>  
+                  <div class="col-md-1"></div>  
+                  <div class="col-md-6 col-sm-12 mt-280 ">
+                    <img src="image/4.jpeg" alt="test" class="img-fluid">
+                    <div class="heroContent4">
+                      <h5 class="img-heading">4nd january 2018</h5>
+                      <p class="img-content">
+                      This is the first line in the jumbotron.<br>
+                      The second line appears underneath the first line.
+                      </p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="row">
+                  <div class="col-md-7 col-sm-12 mt-105 ">
+                    <img src="image/4.jpeg" alt="test" class="img-fluid">
+                    <div class="heroContent4">
+                      <h5 class="img-heading">4nd january 2018</h5>
+                      <p class="img-content">
+                      This is the first line in the jumbotron.<br>
+                      The second line appears underneath the first line.
+                      </p>
+                    </div>
+                  </div>
+                  
+                </div>
+                  
+              </div>
+              <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+                <div class="row">
+                  <div class="col-md-8 col-sm-12 ">
+                    <img src="image/1.jpg" alt="test" class="img-fluid">
+                    <div class="heroContent2">
+                      <h5 class="img-heading">4nd january 2018</h5>
+                      <p class="img-content">
+                      This is the first line in the jumbotron.<br>
+                      The second line appears underneath the first In publishing and graphic design, Lorem ipsum is a placeholder text commonly</line>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-1"></div>
+                  <div class="col-md-3 col-sm-12 mt-200">
+                    <img src="image/3.jpg" alt="test" class="img-fluid">
+                    <div class="heroContent1">
+                      <h5 class="img-heading">4nd january 2018</h5>
+                      <p class="img-content">
+                      This is the first line in the jumbotron.<br>
+                      The second line appears underneath the first line.
+                      </p>
+                    </div>
+                  </div>  
+                  </div>
+                  <div class="row">
+                    <div class="col-md-5 col-sm-12 mt-40">
+                      <img src="image/2.jpg" alt="test" class="img-fluid">
+                      <div class="heroContent3">
+                        <h5 class="img-heading">4nd january 2018</h5>
+                        <p class="img-content">
+                        This is the first line in the jumbotron.<br>
+                        The second line appears underneath the first line.
+                        </p>
+                      </div>
+                    </div>  
+                    <div class="col-md-1"></div>  
+                    <div class="col-md-6 col-sm-12 mt-280 ">
+                      <img src="image/4.jpeg" alt="test" class="img-fluid">
+                      <div class="heroContent4">
+                        <h5 class="img-heading">4nd january 2018</h5>
+                        <p class="img-content">
+                        This is the first line in the jumbotron.<br>
+                        The second line appears underneath the first line.
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                
+                    
+              </div>
+              <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
+                <div class="row">
+                  <div class="col-md-8 col-sm-12 ">
+                    <img src="image/1.jpg" alt="test" class="img-fluid">
+                    <div class="heroContent2">
+                      <h5 class="img-heading">4nd january 2018</h5>
+                      <p class="img-content">
+                      This is the first line in the jumbotron.<br>
+                      The second line appears underneath the first In publishing and graphic design, Lorem ipsum is a placeholder text commonly</line>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-1"></div>
+                  <div class="col-md-3 col-sm-12 mt-200">
+                    <img src="image/3.jpg" alt="test" class="img-fluid">
+                    <div class="heroContent1">
+                      <h5 class="img-heading">4nd january 2018</h5>
+                      <p class="img-content">
+                      This is the first line in the jumbotron.<br>
+                      The second line appears underneath the first line.
+                      </p>
+                    </div>
+                  </div>  
+                  </div>
+                  <div class="row">
+                    <div class="col-md-5 col-sm-12 mt-40">
+                      <img src="image/2.jpg" alt="test" class="img-fluid">
+                      <div class="heroContent3">
+                        <h5 class="img-heading">4nd january 2018</h5>
+                        <p class="img-content">
+                        This is the first line in the jumbotron.<br>
+                        The second line appears underneath the first line.
+                        </p>
+                      </div>
+                    </div>  
+                    <div class="col-md-1"></div>  
+                    <div class="col-md-6 col-sm-12 mt-280 ">
+                      <img src="image/4.jpeg" alt="test" class="img-fluid">
+                      <div class="heroContent4">
+                        <h5 class="img-heading">4nd january 2018</h5>
+                        <p class="img-content">
+                        This is the first line in the jumbotron.<br>
+                        The second line appears underneath the first line.
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-12 mt-105 ">
+                      <img src="image/4.jpeg" alt="test" class="img-fluid">
+                      <div class="heroContent4">
+                        <h5 class="img-heading">4nd january 2018</h5>
+                        <p class="img-content">
+                        This is the first line in the jumbotron.<br>
+                        The second line appears underneath the first line.
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                    
+                </div>
+              <div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
+                <div class="row">
+                  <div class="col-md-8 col-sm-12 ">
+                    <img src="image/1.jpg" alt="test" class="img-fluid">
+                    <div class="heroContent2">
+                      <h5 class="img-heading">4nd january 2018</h5>
+                      <p class="img-content">
+                      This is the first line in the jumbotron.<br>
+                      The second line appears underneath the first In publishing and graphic design, Lorem ipsum is a placeholder text commonly</line>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-1"></div>
+                  <div class="col-md-3 col-sm-12 mt-200">
+                    <img src="image/3.jpg" alt="test" class="img-fluid">
+                    <div class="heroContent1">
+                      <h5 class="img-heading">4nd january 2018</h5>
+                      <p class="img-content">
+                      This is the first line in the jumbotron.<br>
+                      The second line appears underneath the first line.
+                      </p>
+                    </div>
+                  </div>  
+                  </div>
+                  <div class="row">
+                    <div class="col-md-5 col-sm-12 mt-40">
+                      <img src="image/2.jpg" alt="test" class="img-fluid">
+                      <div class="heroContent3">
+                        <h5 class="img-heading">4nd january 2018</h5>
+                        <p class="img-content">
+                        This is the first line in the jumbotron.<br>
+                        The second line appears underneath the first line.
+                        </p>
+                      </div>
+                    </div>  
+                    <div class="col-md-1"></div>  
+                    <div class="col-md-6 col-sm-12 mt-280 ">
+                      <img src="image/4.jpeg" alt="test" class="img-fluid">
+                      <div class="heroContent4">
+                        <h5 class="img-heading">4nd january 2018</h5>
+                        <p class="img-content">
+                        This is the first line in the jumbotron.<br>
+                        The second line appears underneath the first line.
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-12 mt-105 ">
+                      <img src="image/4.jpeg" alt="test" class="img-fluid">
+                      <div class="heroContent4">
+                        <h5 class="img-heading">4nd january 2018</h5>
+                        <p class="img-content">
+                        This is the first line in the jumbotron.<br>
+                        The second line appears underneath the first line.
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                    
+                              
+                </div>
+            </div>
+            <!-- END TABS DIV -->
+            
+          </div>
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-12 col-md-5 fade-left  no-display animated fadeInUp">
+           <img src="image/7.jpg" class="img-fluid about-img">
+          </div>
+          <div class="col-sm-12 col-md-7 fade-up">
+            <h3 class="text-center dark-gray f-500 mt-110 ">Lorem is an advocate of the traditional values India has embraced.<br>
+              In other words we swear by THE 3 T's - Teamwork, Transparency,<br>
+              Tenacity Teamwork - People are Migsun's<br>
+              biggest assets.
+              <br>
+              <br>
+              
+            </h3>
+            <div class="text-center mt-45">
+            <img src="image/sing.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+        <div class="row fade-left  no-display animated fadeInUp">
+          <div class="col-md-12">
+             <h1 class="text-center f-500  fade-down no-display animated fadeInDown orange hr1" >What our clients say</h1>
+             <div class="about-border"></div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="testimonial_slider_2">
+              <input type="radio" name="slider_2" id="slide_2_1" checked />
+              <input type="radio" name="slider_2" id="slide_2_2" />
+              <input type="radio" name="slider_2" id="slide_2_3" />
+              <input type="radio" name="slider_2" id="slide_2_4" />
+              <div class="boo_inner clearfix">
+                <div class="slide_content">
+                  <div class="testimonial_2">
+                    <div class="content_2">
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_content">
+                  <div class="testimonial_2">
+                    <div class="content_2">
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>                
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_content">
+                  <div class="testimonial_2">
+                    <div class="content_2">
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>                    
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_content">
+                  <div class="testimonial_2">
+                    <div class="content_2">
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>                
+                     </div>
+                  </div>
+                </div>
+              </div>
+              <div id="controls">
+                <label for="slide_2_1"></label>
+                <label for="slide_2_2"></label>
+                <label for="slide_2_3"></label>
+                <label for="slide_2_4"></label>
+              </div>
+            </div>
+      
+            </div>
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row fade-left  no-display animated fadeInUp">
+        <div class="col-12">
+          <h1 class="text-left f-500  fade-down no-display animated fadeInDown  hr1" >Latest News</h1>
+          <section1>
+            <div class="container">
+              <div class="row">                             
+                <!--Profile Card 5-->
+                <div class="col-md-6 col-sm-12">
+                  <img src="image/4.jpeg" alt="test" class="img-fluid">
+                  <div class="heroContent">
+                    <h5 class="img-heading">4nd january 2018</h5>
+                    <p class="img-content">
+                    This is the first line in the jumbotron.<br>
+                    The second line appears underneath the first line.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 m-115">
+                  <img src="image/4.jpeg" alt="test" class="img-fluid">
+                  <div class="heroContent">
+                    <h5 class="img-heading">4nd january 2018</h5>
+                    <p class="img-content">
+                    This is the first line in the jumbotron.<br>
+                    The second line appears underneath the first line.
+                    </p>
+                  </div>
+                </div>     
+              </div>
+              </div></br>
+            <div class="row mt-5 ">
+              <div class="col-12 text-center mt-60">
+              <button style="outline: none;border: none;"><i class="fa fa-plus fa2"></i></button>
+              </div>
+            </div>
+            </div>
+        </section1>
+          </div>
+        </div>
+    </div>
+  </section>
+ 
+  <footer class="footer-section">
+    <div class="container">
+        <div class="footer-content pt-5 pb-5">
+            <div class="row ">
+                <div class="col-xl-3 col-lg-3 col-sm-12 mb-50 pt-10">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="image/logo.jpeg"" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>@ Migsun 2018</span>
+                            <a href="#" class="fa fa-facebook fa1"></a>
+                            <a href="#" class="fa fa-twitter fa1"></a>
+                            <a href="#" class="fa fa-instagram fa1"></a>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div class="verticalLine"></div>
+                <div class="col-xl-3 col-lg-3 col-6 mb-30 pt-10">
+                  <div class="footer-widget">
+                      <ul>
+                          <li><a href="#">RESIDENTIAL</a></li>
+                          <li><a href="#">COMMERCIAL</a></li>     
+                          <li><a href="#">EDUCATION</a></li>
+                          <li><a href="#">HOSPITALITY</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="verticalLine"></div>
+                <div class="col-xl-3 col-lg-3 col-6 mb-30 pt-10">
+                    <div class="footer-widget">
+                        <ul>
+                            
+                            <li><a href="#">ABOUT US</a></li>     
+                            <li><a href="#">MEWS</a></li>
+                            <li><a href="#">OUR CLIENTS</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="verticalLine"></div>
+                <div class="col-xl-3 col-lg-3 col-sm-12 mb-50 pt-10">
+                    <div class="footer-widget">
+                        <div class="footer-text mb-25">
+                            <p>C1/C2 MAHALUXMI METRO </BR>TOWER SECTOR-4 ,VAISHALI,</BR>GHAZIABAD-201010. </p>
+                        </div>
+                        <div class="footer-text mb-25">
+                          <p>1800-180-1065. </p>
+                      </div>
+                      <div class="footer-text mb-25">
+                        <p>info@migsun.in </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script> 
+  var ppbutton = document.getElementById("vidbutton");
+  ppbutton.addEventListener("click", playPause);
+  myVideo = document.getElementById("video-bg");
+  function playPause() { 
+      if (myVideo.paused) {
+          myVideo.play();
+          ppbutton.innerHTML = '<i class="fa fa-pause-circle-o"></i>';
+          }
+      else  {
+          myVideo.pause(); 
+          ppbutton.innerHTML = '<i class="fa fa-play-circle-o"></i>';
+          }
+  } 
+  </script>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      /* Set the width of the side navigation to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+
+    </script>
+    <script>
+   $(document).ready(function(){
+		pagenum = 1;
+		function AutoRotate() {
+		   var myele = null;
+		   var allElements = document.getElementsByTagName('label');
+		   for (var i = 0, n = allElements.length; i < n; i++) {
+			   var myfor = allElements[i].getAttribute('for');
+			   if ((myfor !== null) && (myfor == ('slide_2_' + pagenum))) {
+				   allElements[i].click();
+				   break;
+			   }
+		   }
+		   if (pagenum == 4) {
+			   pagenum = 1;
+		   } else {
+			   pagenum++;
+		   }
+		}
+		setInterval(AutoRotate, 5000);
+	});
+    </script>  
+    <script type="text/javascript" src="js/init.js"></script>
+    <script>
+     
+      </script>
+</body>
+
+</html>
